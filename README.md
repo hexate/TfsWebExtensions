@@ -3,7 +3,7 @@ TfsWebExtensions
 
 Useful web extensions for TFS. The web access for TFS is great, but it's missing a few things.
 
-To install an extension, you will upload a zipped file to TFS that must include a file called <YourExtension>.min.js and manifest.xml. The manifest contains information TFS uses when loading the extension.
+To install an extension, you will upload a zipped file to TFS that must include a file called YourExtension.min.js and manifest.xml. The manifest contains information TFS uses when loading the extension.
 
 WARNING: Caveats with using this:
 
