@@ -8,7 +8,7 @@ TFS.module("TfsWebExtensions.TaskBoard",["TFS.Host", "TFS.Admin", "TFS.WorkItemT
 		return TFS.Host.TfsContext.getDefault().navigation.currentController == "boards";
 	}
 	function init() {
-		$("<link type='text/css' rel='stylesheet' href='" + moduleBaseUrl + "Mindbody.Tweaks.css' />").appendTo($("head").last());
+		$("<link type='text/css' rel='stylesheet' href='" + moduleBaseUrl + "TfsWebExtensions.TaskBoard.css' />").appendTo($("head").first());
 	}
 	function recolorTiles() {
 		wim.beginGetWorkItems(wIds, function(workItems) { 
