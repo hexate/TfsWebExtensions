@@ -2,6 +2,7 @@
 	<plugin moreinfo="https://github.com/hexate/TfsWebExtensions" name="Task Board Extensions" vendor="Blake Davis" version="0.1">
 		<modules>
 			<module namespace="TfsWebExtensions.TaskBoard" loadAfter="TFS.Agile.TaskBoard" />
+			<module namespace="TfsWebExtensions.TaskBoard" loadAfter="TFS.Agile.Boards.Controls"/>
 		</modules>
 	</plugin>
 </WebAccess>
